@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EasyEats</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body class="nmnp">
+
+	<nav class="navbar navbar-expand-lg nbar">
+
+		<a class="navbar-brand" href="#">
+			<div class="logo-div">
+				<img src="images/logo.png" class="d-inline-block align-top" alt="">
+			</div>
+		    <div class="logo-div">
+		    	<h4>EasyEats</h4>
+		    </div>
+		</a>
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse navbar-right-div" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign-Up!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="images/cart-icon.png" id="cart-icon">
+            Cart
+          </a>
+        </li>
+	    </ul>
+	  </div>
+	</nav>
+
+  <hr class="line">
+
+  <div class="container-fluid carousel-container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block left-carousel-container">
+        <img src="images/coupon25.jpg" class="spare">
+      </div>
+      
+      <div id="carouselExampleIndicators" class="carousel slide col-xl-6 col-lg-6 col-md-6 mid-carousel-container" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/foodpic1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/foodpic2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/foodpic3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/foodpic4.jpg" alt="Fourth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block right-carousel-container">
+        <img src="images/coupon50.jpg" class="spare">
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container menu-container">
+    <h3 id="menu-line">MEAL PLANS</h3>
+    <hr class="line">
+    <div class="row">
+      
+      <div class="col-lg-6 col-md-12 col-sm-12 menu-posters">
+        <a href="#">
+          <div class="collectionCategories">
+            
+            <div class="row nmnp">
+              <div class="imageWrapper col-8 nmnp">
+                <img src="images/mini-meal.jpg">
+              </div>
+              <div class="meal-details text-center col-4 nmnp">
+                <img src="images/vegetarian.jpg">
+                <h5>Mini Meal</h5>
+                <p>1 Veg dish</p>
+                <p>Dal</p>
+                <p>4 Rotis</p>
+                <h6>Price Per Meal</h6>
+                <h6>Rs 60*</h6>
+                <p>*in monthly / weekly meal plan.</p>
+              </div>
+            </div>
+            
+            <div class="row detailsWrapper nmnp">
+              <div class="col-4">
+                <p>Week (7 days)</p>
+                <p>Rs 840<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+              </div>
+              <div class="col-4">
+                <button type="button" class="btn btn-outline-success btn-sm"><h5>Customise</h5></button>
+              </div>
+              <div class="col-4">
+                <p>Month (30 days)</p>
+                <p>Rs 3600<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+              </div>
+            </div>
+
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 menu-posters">
+        <a href="#">
+          <div class="collectionCategories">
+            
+            <div class="row nmnp">
+              <div class="imageWrapper col-8 nmnp">
+                <img src="images/classic-meal.jpg">
+              </div>
+              <div class="meal-details text-center col-4 nmnp">
+                <img src="images/vegetarian.jpg">
+                <h5>Classic Meal</h5>
+                <p>1 Veg dish</p>
+                <p>Dal</p>
+                <p>4 Rotis</p>
+                <p>Rice</p>
+                <p>Curd</p>
+                <h6>Price Per Meal</h6>
+                <h6>Rs 75*</h6>
+                <p>*in monthly / weekly meal plan.</p>
+              </div>
+            </div>
+            
+            <div class="row detailsWrapper nmnp">
+                <div class="col-4">
+                  <p>Week (7 days)</p>
+                  <p>Rs 1050<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+                <div class="col-4">
+                  <button type="button" class="btn btn-outline-success btn-sm"><h5>Customise</h5></button>
+                </div>
+                <div class="col-4">
+                  <p>Month (30 days)</p>
+                  <p>Rs 4500<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+            </div>
+
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 menu-posters">
+        <a href="#">
+          <div class="collectionCategories">
+            
+            <div class="row nmnp">
+              <div class="imageWrapper col-8 nmnp">
+                <img src="images/treat.jpg">
+              </div>
+              <div class="meal-details text-center col-4 nmnp">
+                <img src="images/vegetarian.jpg">
+                <h5>Treat</h5>
+                <p>2 Veg dish</p>
+                <p>Dal</p>
+                <p>4 Rotis</p>
+                <p>Rice</p>
+                <p>Curd</p>
+                <p>Dessert</p>
+                <h6>Price Per Meal</h6>
+                <h6>Rs 100*</h6>
+                <p>*in monthly / weekly meal plan.</p>
+              </div>
+            </div>
+            
+            <div class="row detailsWrapper nmnp">
+                <div class="col-4">
+                  <p>Week (7 days)</p>
+                  <p>Rs 1400<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+                <div class="col-4">
+                  <button type="button" class="btn btn-outline-success btn-sm"><h5>Customise</h5></button>
+                </div>
+                <div class="col-4">
+                  <p>Month (30 days)</p>
+                  <p>Rs 5400<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+            </div>
+
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 menu-posters">
+        <a href="#">
+          <div class="collectionCategories">
+            
+            <div class="row nmnp">
+              <div class="imageWrapper col-8 nmnp">
+                <img src="images/mixed.jpg">
+              </div>
+              <div class="meal-details text-center col-4 nmnp">
+                <img src="images/vegetarian.jpg">
+                <h5>Mixed</h5>
+                <p>8 Mini Meals</p>
+                <p>4 Classic Meals</p>
+                <p>2 Treat Meals</p>
+                <p>(Every Week)</p>
+                <h6>Avg. price Per Meal</h6>
+                <h6>Rs 70*</h6>
+                <p>*in monthly / weekly meal plan.</p>
+              </div>
+            </div>
+            
+            <div class="row detailsWrapper nmnp">
+                <div class="col-4">
+                  <p>Week (7 days)</p>
+                  <p>Rs 980<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+                <div class="col-4">
+                  <button type="button" class="btn btn-outline-success btn-sm"><h5>Customise</h5></button>
+                </div>
+                <div class="col-4">
+                  <p>Month (30 days)</p>
+                  <p>Rs 4200<button type="button" class="btn btn-outline-success btn-sm">BUY</button></p>
+                </div>
+            </div>
+
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div><br>
+
+  <div class="container order-container">
+    <h3 id="menu-line">Quick Order</h3>
+    <hr class="line">
+    <div class="row nmnp">
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/mini-meal.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Mini Thali</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.70</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm float-right">ADD</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/classic-meal.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Classic Thali</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.85</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm">ADD</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/treat.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Deluxe Thali</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.110</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm">ADD</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/roti.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Roti</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.5</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm">ADD</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/dessert.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Dessert</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.10</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm">ADD</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 order-col">
+          <div class="row nmnp">
+            <div class="orderImageWrapper col-12 nmnp">
+              <img src="images/raita.jpg">
+            </div>
+          </div>
+
+          <div class="row orderDetailsWrapper nmnp">
+            <div class="col-6">
+              <h5>Raita</h5>
+            </div>
+            <div class="col-3">
+              <span>Rs.10</span>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-outline-success btn-sm">ADD</button>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div><hr>
+
+  <div class="container-fluid why-us text-center">
+    <div class="row row1">
+      <div class="col-12">
+        <h4>WHY EASYEATS?</h4>
+      </div>
+    </div>
+    <div class="row row2">
+      <div class="col-lg-4 col-md-4 col-sm-12 why-us-col">
+        <h4>HEALTHY</h4>
+        <h6>Delicious Home Style food with minimal oil / spices.</h6>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 why-us-col">
+        <h4>HYGIENIC</h4>
+        <h6>We give utmost importance to hygiene of food.</h6>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 why-us-col">
+        <h4>POCKET-FRIENDLY</h4>
+        <h6>We don't want you to spend too much!</h6>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container-fluid text-center footer-container">
+    <div class="row">
+      <div class="col-4 text-center">
+        <img src="images/bike.jpg">
+      </div>
+      <div class="col-4 text-center">
+        <h4>EasyEats Pvt. Ltd.</h4>
+      </div>
+      <div class="col-4 text-center">
+        <h6>Delivering at your doorstep!</h6>
+      </div>
+    </div>
+  </div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index_script.js"></script>
+</body>
+</html>
